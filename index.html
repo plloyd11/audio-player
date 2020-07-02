@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Replicant LP2</title>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="flex items-center justify-center w-full h-full bg-cool-gray-50">
+
+  <main class="max-w-2xl px-4 mx-auto sm:px-6 lg:px-8">
+    <section class="rounded-bl-lg rounded-br-lg shadow-2xl bg-cool-gray-200">
+      <div id="img-container">
+        <img src="img/replicant.jpg" alt="Replicant">
+      </div>
+      <div class="py-8">
+        <h2 id="title" class="text-3xl text-center">Relinquish The Self</h2>
+        <h3 id="artist" class="text-lg text-center">lp2</h3>
+        <audio src="music/relinquish-the-self.mp3" class="mx-auto mt-6"></audio>
+        <!-- Progress Bar -->
+        <div id="progress-container" class="w-9/12 mx-auto mb-8">
+          <div class="flex justify-between">
+            <span id="current-time">0:00</span>
+            <span id="duration">3:27</span>
+          </div>
+          <div class="h-2 rounded-md cursor-pointer bg-gray-50">
+            <div class="relative h-2 rounded-md cursor-pointer bg-cool-gray-900" id="progress"></div>
+          </div>
+        </div>
+        <!-- Controls -->
+        <div class="flex justify-center">
+          <svg class="w-10 cursor-pointer" id="prev" title="Previous" viewBox="0 0 24 24">
+            <defs>
+              <style>
+                .a {
+                  fill: none;
+                  stroke: currentColor;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 1.5px
+                }
+              </style>
+            </defs>
+            <path
+              d="M16.012 15.658a.855.855 0 001.238-.765V9.1a.855.855 0 00-1.238-.765l-5.789 2.894a.856.856 0 000 1.531z"
+              class="a" />
+            <path d="M6.75 8.248v7.5" class="a" />
+          </svg>
+          <svg class="w-12 mx-1 cursor-pointer" id="play" title="Play" viewBox="0 0 24 24">
+            <defs>
+              <style>
+                .a {
+                  fill: none;
+                  stroke: currentColor;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 1.5px
+                }
+              </style>
+            </defs>
+            <circle cx="12" cy="11.998" r="11.25" class="a" />
+            <path d="M9 15.613a1.636 1.636 0 002.712 1.231L17.25 12l-5.538-4.847A1.635 1.635 0 009 8.384z" class="a" />
+          </svg>
+          <svg class="w-10 cursor-pointer" id="next" title="Next" viewBox="0 0 24 24">
+            <defs>
+              <style>
+                .a {
+                  fill: none;
+                  stroke: currentColor;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 1.5px
+                }
+              </style>
+            </defs>
+            <path
+              d="M7.988 15.658a.855.855 0 01-1.238-.765V9.1a.855.855 0 011.238-.765l5.789 2.894a.856.856 0 010 1.531z"
+              class="a" />
+            <path d="M17.25 8.248v7.5" class="a" />
+          </svg>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

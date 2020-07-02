@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700&display=swap');
+
+html {
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Kanit', sans-serif;
+}
+
+.spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Progress */
+
+.progress-bar {
+  background: #242323;
+  border-radius: 6px;
+  height: 100%;
+  width: 0;
+  transition: width 0.1s linear;
+}
