@@ -26,6 +26,10 @@ const songs = [
     displayName: 'Death Curse',
   },
   {
+    name: 'manipulator',
+    displayName: 'Adaptive Manipulator',
+  },
+  {
     name: 'dressed',
     displayName: 'Dressed In Violence',
   },
@@ -36,10 +40,6 @@ const songs = [
   {
     name: 'virus',
     displayName: 'Virus',
-  },
-  {
-    name: 'manipulator',
-    displayName: 'Adaptive Manipulator',
   },
   {
     name: 'womb',
