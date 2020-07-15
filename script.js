@@ -10,20 +10,16 @@ const nextBtn = document.querySelector('#next')
 
 const songs = [
   {
+    name: 'caverns',
+    displayName: 'Caverns of Insipid Reflection',
+  },
+  {
     name: 'relinquish',
     displayName: 'Relinquish The Self',
   },
   {
     name: 'ectoskull',
     displayName: 'Ectoskull',
-  },
-  {
-    name: 'gehennan',
-    displayName: 'Gehennan',
-  },
-  {
-    name: 'caverns',
-    displayName: 'Caverns of Insipid Reflection',
   },
   {
     name: 'curse',
@@ -34,16 +30,20 @@ const songs = [
     displayName: 'Dressed In Violence',
   },
   {
-    name: 'manipulator',
-    displayName: 'Adaptive Manipulator',
+    name: 'gehennan',
+    displayName: 'Gehennan',
   },
   {
     name: 'virus',
     displayName: 'Virus',
   },
   {
-    name: 'unbeing',
-    displayName: 'Unbeing',
+    name: 'manipulator',
+    displayName: 'Adaptive Manipulator',
+  },
+  {
+    name: 'womb',
+    displayName: 'Excess Womb',
   },
   {
     name: 'time',
