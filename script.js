@@ -22,24 +22,24 @@ const songs = [
     displayName: 'Ectoskull',
   },
   {
-    name: 'curse',
-    displayName: 'Death Curse',
+    name: 'gehennan',
+    displayName: 'Gehennan',
   },
   {
     name: 'manipulator',
     displayName: 'Adaptive Manipulator',
   },
   {
+    name: 'virus',
+    displayName: 'Virus',
+  },
+  {
     name: 'dressed',
     displayName: 'Dressed In Violence',
   },
   {
-    name: 'gehennan',
-    displayName: 'Gehennan',
-  },
-  {
-    name: 'virus',
-    displayName: 'Virus',
+    name: 'curse',
+    displayName: 'Death Curse',
   },
   {
     name: 'womb',
